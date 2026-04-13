@@ -1,0 +1,11 @@
+inteiro a = 1;
+inteiro xk = 2;
+banana b;
+flutuante k;
+xk = 999;
+b = "GNU/Linux";
+se (a == 1) { imprimir ("Olá pessoal\n"); } senao { imprimir (xk); }
+imprimir ("olá mundo!\n");
+xk = 9;
+enquanto (k == 1) { imprimir ("olá mundo"); }
+para (inteiro i = 0; i < 9; i++) { imprimir ("teste"); }

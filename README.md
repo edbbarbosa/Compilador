@@ -12,14 +12,14 @@ Será criado o arquivo output.cc que contém um código C++.
 
 Os tokens aceitos pela gramática do compilador: 
 <pre>
-token	 =	 <inteiro> ::= [0-9]+
-		     <flutuante> ::= [0-9]+ ou [0-9]+.[0-9]+
-		     <banana> ::= "[^"]*"	
+token	 =	 &lt;inteiro&gt; ::= [0-9]+
+		     &lt;flutuante&gt; ::= [0-9]+ ou [0-9]+.[0-9]+
+		     &lt;banana&gt; ::= "[^"]*"	
 		     [A-Za-z]+ ::= [0-9]+ ou  [0-9]+.[0-9]+ ou "[^"]*"
-		     <se> (expr) {token}
-		     <se> (expr) <senao> {token}
-		     <enquanto> (expr) {token}
-		     <para> (exprPara) {token}
+		     &lt;se&gt; (expr) {token}
+		     &lt;se&gt; (expr) &lt;senao> {token}
+		     &lt;enquanto&gt; (expr) {token}
+		     &lt;para&gt; (exprPara) {token}
 		     ø
 expr	=	variável == [0-9]+ ou "[^"]*"
 		    variável != [0-9]+ ou "[^"]*"
@@ -27,7 +27,7 @@ expr	=	variável == [0-9]+ ou "[^"]*"
 		    variável =< [0-9]+ ou "[^"]*"
 		    variável > [0-9]+ ou "[^"]*"
 		    variável < [0-9]+ ou "[^"]*"
-exprPara = 	<inteiro> variavel, variavel < [0-9]+, variavel++ 	
+exprPara = 	&lt;inteiro&gt; variavel, variavel < [0-9]+, variavel++ 	
 variável  =	[A-Za-z0-9]
 </pre>
   

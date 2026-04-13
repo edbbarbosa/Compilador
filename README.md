@@ -12,23 +12,23 @@ Será criado o arquivo output.cc que contém um código C++.
 
 Os tokens aceitos pela gramática do compilador: 
 
-token	 =	 <inteiro> ::= [0-9]+
-		     <flutuante> ::= [0-9]+ ou [0-9]+.[0-9]+
-		     <banana> ::= "[^"]*"	
-		     [A-Za-z]+ ::= [0-9]+ ou  [0-9]+.[0-9]+ ou "[^"]*"
-		     <se> (expr) {token}
-		     <se> (expr) <senao> {token}
-		     <enquanto> (expr) {token}
-		     <para> (exprPara) {token}
-		     ø
-expr	=	variável == [0-9]+ ou "[^"]*"
-		    variável != [0-9]+ ou "[^"]*"
-		    variável >= [0-9]+ ou "[^"]*"
-		    variável =< [0-9]+ ou "[^"]*"
-		    variável > [0-9]+ ou "[^"]*"
-		    variável < [0-9]+ ou "[^"]*"
-exprPara = 	<inteiro> variavel, variavel < [0-9]+, variavel++ 	
-variável  =	[A-Za-z0-9]
+> token	 =	 <inteiro> ::= [0-9]+
+>		     <flutuante> ::= [0-9]+ ou [0-9]+.[0-9]+
+>		     <banana> ::= "[^"]*"	
+>		     [A-Za-z]+ ::= [0-9]+ ou  [0-9]+.[0-9]+ ou "[^"]*"
+>		     <se> (expr) {token}
+>		     <se> (expr) <senao> {token}
+>		     <enquanto> (expr) {token}
+>		     <para> (exprPara) {token}
+>		     ø
+> expr	=	variável == [0-9]+ ou "[^"]*"
+>		    variável != [0-9]+ ou "[^"]*"
+>		    variável >= [0-9]+ ou "[^"]*"
+>		    variável =< [0-9]+ ou "[^"]*"
+>		    variável > [0-9]+ ou "[^"]*"
+>		    variável < [0-9]+ ou "[^"]*"
+> exprPara = 	<inteiro> variavel, variavel < [0-9]+, variavel++ 	
+> variável  =	[A-Za-z0-9]
 
 **Token inteiro:** 
 Representa um valor int positivo de 16-bits. Recebe números de até 2,147,483,647. Pode ser apenas declarado ou declarado e inicializado. 

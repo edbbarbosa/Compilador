@@ -1,4 +1,4 @@
-# A3Compiladores
+# Compilador
 
 Um projeto simples que demonstra o funcionamento de um compilador com analisadores léxico, semântico e sintáxico e com geradores. Transforma um código simples (em português) a partir do input.txt em linguagem C++. 
 
